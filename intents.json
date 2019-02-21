@@ -1,0 +1,238 @@
+{"intents": [
+    	{"tag": "greeting",
+     	"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Hey", "Sup", "Whatsup", "Hello there", "Whats up"],
+     	"responses": ["Hello, how can I help you?", "Hey, how can I help you?", "Hi there, how can I help?"],
+     	"context_set": ""
+    	},
+    	{"tag": "goodbye",
+     	"patterns": ["Bye", "See you later", "Goodbye", "Get lost", "Bubye", "Bye Bye", "Tata", "See you", "Nice meeting you"],
+     	"responses": ["Goodbye, I hope I answered your queries.", "Have a nice day!", "Bye! Come back again soon."]
+    	},
+    	{"tag": "thanks",
+     	"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thanks a ton", "Ty", "Tysm", "Thank you so much"],
+     	"responses": ["Your welcome!", "Any time!", "My pleasure"]
+    	},
+    	{"tag": "noanswer",
+     	"patterns": [""],
+     	"responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    	},
+    	{"tag": "generalfeestructure",
+     	"patterns": ["What is the college fees at MPSTME?", "How much fee is charged for engineering?", "What is the fees for engineering?", "What is the fees for different courses?", "What is the tuition fees?", "fee structure", "fees", "fees for btech", "fees for mbatech", "fees for btech integrated", "fees at mpstme", "charges", "tell me about the fees", "tell me about the fees structure"],
+     	"responses": ["Fee structure for various programs at MPSTME: MBA Tech - 3.3-3.7LPA, BTech - 2.7-3.0LPA, BTech Integrated - 2.7-3.0LPA, PHD - 0.5-0.7LPA, MTech - 1.2LPA, MCA - 1.1LPA, PGDM - 4.9LPA"]
+    	},
+    	{"tag": "btechandmbatechadmissions",
+     	"patterns": ["What is the admission process for BTech?", "What is the admission process for MBA Tech?", "How can I get into MBA Tech program?", "How can I get into BTech program?", "Tell me the admission details for MBA Tech", "Tell me the admission details for BTech", "admissions for btech", "admissions btech", "admission procedure btech", "admission procedure for btech", "how to get admission in btech", "how to get admitted in btech course", "i want to join btech", "admission process btech", "admission process for btech", "admissions for mbatech", "admissions mbatech", "admission procedure mbatech", "admission procedure for mbatech", "how to get admission in btech", "how to get admitted in btech course", "i want to join btech", "admission process btech", "admission process for btech"  ],
+     	"responses": ["Engineering aspirants interested for MBA Tech and BTech programs need to appear for NPAT. Admissions will be granted to various courses based on NPAT scores. You may follow the link for more information on NPAT - https://www.nmims.edu/docs/announcement-new-npat-pattern-for-engineering-programs.pdf"]
+    	},
+    	    	{"tag": "otherprogramsadmissions",
+     	"patterns": ["What is the admission process for BTech Integrated", "What is the admission process for MCA?",
+     	"What is the admission process for PGDM?", "What is the admission process for MTech?", "What is the admission process for MCA?", "How can I get into BTech Integrated program?", "How can I get into MCA program?", "How can I get into MTech program?", "How can I get into PGDM program?", "Tell me the admission details for BTech Integrated", "Tell me the admission details for MCA", "Tell me the admission details for MTech", "Tell me the admission details for PGDM", "What is the admission procedure for BTech Integrated?", "What is the admission procedure for MTech?", "What is the admission procedure for MTech?", "What is the admission procedure for PGDM" ],
+     	"responses": ["The admission details for this course are updated on our website whenever the admission process begins. Please follow this link to view all ongoing admission processes - https://engineering.nmims.edu/academics/admissions/"]
+    	},
+{"tag": "accreditation",
+ "patterns": ["What accreditations has nmims received?", "accreditation", "certifications", "which    all accreditations are there", "MPSTME accreditations", "Is this college AICTE approved?", "AICTE", "Does this college have AICTE accreditation?", "AICTE accreditation", "International accreditation"],
+"responses": ["The Programs offered at MPSTME are All India Council for Technical Education(AICTE) Approved. Computer Engineering & Electronics and Telecommunication Programs have been accredited by National Board of Accreditation under Tier – I for two years. (implies international accreditation)"]
+},
+{"tag": "streamartificialintelligence",
+"patterns": ["stream artificial intelligence", "stream AI", "what is ai stream", "courses in artificial intelligence", "what is artificial intelligence stream", "i want to know about the ai stream at NMIMS", "i want to know about the artificial intelligence stream in this college", "give some information about artificial intelligence field in this college", "tell me about ai stream in this college", "tell me about artificial intelligence stream in this college"],
+"responses": ["It’s a Futuristic course, Mostly hands-on program to solve AI problem to solve industry problem – A course on Problem solving! We offer Artificial Intelligence Stream in the following Course - M. Tech"]
+},
+{"tag": "offensivewords",
+     	"patterns": ["Stupid", "Idiot", "Useless", "Dumb", "You are not helpful", "You are a dumb bot", "You are stupid"],
+     	"responses": ["Please don't say that! I will try to be better next time.", "Sorry, I will try to be better next time."]
+    	},
+    	{"tag": "affirmative",
+     	"patterns": ["Okay!", "Yes", "Cool", "Alright", "Fine", "Got it"],
+     	"responses": ["I hope I answered your query", "What else can I help you with?", "Okay"]
+    	}, 	 
+    	{"tag": "undergradprograms",
+     	"patterns": ["I want to know about the Undergraduate Programs in this college.", "I want to know about the Undergraduate Programs.",
+     	"Tell me about the UG Programs in this college.", "What ug programs are available?", "What undergrad programs are available?",
+     	"What undergraduate programs are available?", "Tell me about the undergrad Programs in this college.", "Tell me about the undergraduate Programs in this college.", "Does this college offer undergraduate programs?", "Does this college offer ug programs?", "Does this college offer undergrad programs?", "Do you offer undergraduate programs?", "Do you offer undergrad programs?", "Do you offer ug programs?"],
+     	"responses": ["We provide the following Undergraduate Programs - B. Tech (4 Years after 12th grade), B. Tech Integrated (6 Years after 10th grade)"]
+    	},
+    	{"tag": "postgradprograms",
+     	"patterns": ["I want to know about the Postgraduate Programs in this college.", "I want to know about the Postgraduate Programs.",
+     	"Tell me about the PG Programs in this college.", "What PG programs are available?", "What postgrad programs are available?",
+     	"What Postgraduate programs are available?", "Tell me about the Postgrad Programs in this college.", "Tell me about the Postgraduate Programs in this college.", "Does this college offer postgraduate programs?", "Does this college offer pg programs?", "Does this college offer postgrad programs?", "Do you offer postgraduate programs?", "Do you offer postgrad programs?", "Do you offer pg programs?"],
+     	"responses": ["We provide the following Postgraduate Programs - PGDM- Real Estate Construction and Management, MCA- Master of Computer Application, M. Tech, Ph.D"]
+    	},
+    	{"tag": "integratedprograms",
+     	"patterns": ["Tell me about the integrated programs in this college.", "Tell me about the integrated programs.",
+     	"I want to know more about the integrated courses at this college", "Integrated courses", "Dual degrees",
+     	"What dual degrees are available?", "Tell me about the dual degrees in this college.", "I want to know about the dual degrees in this college.", "Are any dual degrees offered by this college?", "Does this college offer dual degrees", "Does this college have any integrated programs", "Are any integrated programs offered by this college", "Do you offer dual degrees?", "Do you have any integrated courses?" ],
+     	"responses": ["We provide the following Integrated Programs - MBA (Tech): 5 Years Dual Degree Integrated Program for 12th+ students. B. Tech+ MBA in Technology Management, B. Tech Integrated: 6 Years Integrated Diploma and Degree Program for 10th+ students"]
+    	},
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "What are the admin office timings?", "Admin office time" ],
+         "responses": ["We're open every day 10am-5pm", "Our hours are 10am-5pm every day"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 10am-5pm", "Our hours are 10am-5pm every day"]
+        },
+{"tag": "CourseB.Tech",
+ "patterns": ["Tell me about B.Tech course", "B.Tech Course info", "Qualification for B.tech Degree", "give me information about B.Tech Degree","B.Tech Intake","B.Tech strength","B.Tech seats","B.Tech in Shirpur Campus","B.Tech in Mumbai Campus"],
+"responses": ["Let me help you! We offer 4 year B. Tech Course for 12th+ Students at our Mumbai and Shirpur campuses.We provide B. Tech Degree in the following streams: Electrical (30 Seats), Data Science (60 Seats), - Information Technology (60+60 Seats), Computer Engineering (120+60 Seats, Civil (60 Seats), Electronics and Telecommunication (60+60 Seats), Mechatronics (60+60 Seats), Mechanical (60+60 Seats). *Seats: Mumbai + Shirpur; Minimum 70% in 12th grade required."]
+},
+{"tag": "CourseB.TechInt",
+ "patterns": ["Tell me about B.Tech Integrated course", "B.Tech Integrated Course info", "Qualification for B.tech Integrated Degree", "give me information about B.Tech Integrated Degree","B.Tech Integrated Intake","B.Tech Int strength","B.Tech Int seats","B.Tech Integrated in Shirpur Campus","B.Tech Integrated in Mumbai Campus"],
+"responses": ["B. Tech Integrated is a 6-year program for 10th+ students, provided in the following streams at our Mumbai Campus: Computer Engineering (120 Seats), Mechanical Engineering (60 Seats), Civil Engineering (60 Seats), Electronics & Telecommunication Engineering (60 Seats) ; Minimum 70% in 10th grade required."]
+},
+{"tag": "CourseB.TechInt",
+ "patterns": ["Tell me about B.Tech Integrated course", "B.Tech Integrated Course info", "Qualification for B.tech Integrated Degree", "give me information about B.Tech Integrated Degree","B.Tech Integrated Intake","B.Tech Int strength","B.Tech Int seats","B.Tech Integrated in Mumbai Campus"],
+"responses": ["B. Tech Integrated is a 6-year program for 10th+ students, provided in the following streams at our Mumbai Campus: Computer Engineering (120 Seats), Mechanical Engineering (60 Seats), Civil Engineering (60 Seats), Electronics & Telecommunication Engineering (60 Seats); Minimum 70% in 10th grade required."] 
+},
+{"tag": "CourseM.Tech",
+ "patterns": ["Tell me about M.Tech course", "M.Tech Course info", "Qualification for M.Tech Degree", "give me information about M.Tech Degree","M.Tech Intake","M.Tech strength","M.Tech seats","M.Tech in Mumbai Campus"],
+"responses": ["M. Tech Program is a 2- Year Masters Program for students holding a Bachelor's Degree. This course is provided in the following streams at our Mumbai Campus: Artificial Intelligence (18 Seats), Computer Engineering (18 Seats), Industry Automation (18 Seats), Electronics & Telecommunications Engineering (18 Seats), Data Sciences, Business Analytics (18 Seats)"] 
+},
+{"tag": "CourseMBATech",
+ "patterns": ["Tell me about MBATech course", "MBATech Course info", "Qualification for MBATech Degree", "give me information about MBATech Degree","MBATech Intake","MBATech strength","MBATech seats","MBATech in Mumbai Campus","MBATech in Shirpur Campus"],
+"responses": ["Let me help you! MBA Tech is a 5-year course offering a dual degree, B. Tech+MBA in Tech, for 12th+ Students at our Mumbai and Shirpur campuses.We provide MBA. Tech Degree in the following streams: Information Technology (60+40 Seats),  Computer Engineering (60+90 Seats), Civil (60+40 Seats), Chemical (30 Seats), Electronics and Telecommunication (60+40 Seats), Mechanical (60+60 Seats) ; *Seats: Mumbai+Shirpur. The objective of the MBA Tech program is to: To provide a strong conceptual base in all the facets of Management and develop skills required for application of concepts to real-life business situations. Minimum 70% in 12th grade required."] 
+},
+{"tag": "CourseMCA",
+ "patterns": ["Tell me about MCA course", "MCA Course info", "Qualification for MCA Degree", "give me information about MCA Degree","MCA Intake","MCA strength","MCA seats","MCA in Mumbai Campus","I want to know about MCA course"],
+"responses": ["To meet the increasing demand of trained manpower in the field of Computer Applications, NMIMS Deemed to be University (as per UGC Norms) has launched the 3 years Postgraduate MCA Program with an intake of 60 seats at Mumbai campus under Mukesh Patel School of Technology Management & Engineering."] 
+},
+
+{"tag": "CoursePGDM",
+ "patterns": ["Tell me about PGDM course", "PGDM Course info", "Qualification for PGDM Degree", "give me information about PGDM Degree","PGDM Intake","PGDM strength","PGDM seats","PGDM in Mumbai Campus","I want to know about PGDM course"],
+"responses": ["Post Graduate Diploma in Management- Real Estate Construction and Management.The two-year program is a six-trimester program covering all aspects related to Real Estate Construction and Management ranging from conceiving a project, initiation, basics of construction processes, legal aspects, financing, marketing, managing approvals etc. Intake: 30 ; Eligibility: Candidate must have a Bachelor's Degree"] 
+},
+{"tag": "CoursePhD",
+ "patterns": ["Tell me about PhD course", "PhD Course info", "Qualification for PhD Degree", "give me information about PhD Degree","PhD Intake","PhD strength","PhD seats","PhD in Mumbai Campus","I want to know about PhD course"],
+"responses": ["NMIMS offers Ph.D. in Information Technology, Computer Engineering, Electronics Engineering, Electronics & Telecommunication Engineering, Mechanical Engineering, Chemical Engineering, Civil Engineering, and Technology Management. For Ph.D. the duration is from 3-5 years depending upon the performance of the candidate. A candidate must possess a Master's Degree with a relevant project and research work."] 
+},
+
+{"tag": "streamCivil",
+"patterns": ["stream Civil Engineering", "stream Civil", "what is Civil stream?", "courses in Civil", "what is Civil Engineering stream?", "i want to know about the Civil stream at NMIMS", "i want to know about the Civil Engineering stream in this college", "give some information about Civil Engineering field in this college", "tell me about Civil Engineering stream in this college", "tell me about Civil Engineering stream in this college","tell me about Civil Engineering stream at MPSTME"],
+"responses": ["We create competent Civil Engineering professionals and employable individuals with sound technical and management credentials to take part in state-of-the-art infrastructural development with global ensign for the benefit of society.Civil Engineering Stream is offered in the following courses: B. Tech, MBA Tech, B. Tech Integrated"]
+},
+
+{"tag": "streamComputer",
+"patterns": ["stream Computer Engineering", "stream Computer", "what is Computer stream?", "courses in Computer", "what is Computer Engineering stream?", "i want to know about the Computer stream at NMIMS", "i want to know about the Computer Engineering stream in this college", "give some information about Computer Engineering field in this college", "tell me about Computer Engineering stream in this college", "tell me about Computer Engineering stream in this college","tell me about Computer Engineering stream at MPSTME"],
+"responses": ["We play a significant role in creating Computer Engineering Graduates with sound technical and managerial skills of value to industry and society both at national and international level.We provide Computer Engineering Stream in the following courses: B. Tech, B. Tech Integrated, MBA Tech, M. Tech"]
+},
+
+{"tag": "streamDataScience",
+"patterns": ["stream Data Science", "stream DS", "what is Data Science stream?", "courses in Data Science", "what is Data Science Engineering stream?", "i want to know about the Data Science stream at NMIMS", "i want to know about the Data Science Engineering stream in this college", "give some information about Data Science Engineering field in this college", "tell me about Data Science Engineering stream in this college", "tell me about Data Science Engineering stream in this college","tell me about Data Science Engineering stream at MPSTME"],
+"responses": ["The B.Tech Data Science program is a modern degree designed to meet the increasingly aggressive demand for qualified data scientists in virtually every sector of the economy. We provide Data Science Engineering Stream in the following courses: B.Tech, M.Tech"]
+},
+
+{"tag": "streamElectrical",
+"patterns": ["stream Electrical", "stream Electrical", "what is Electrical stream?", "courses in Electrical", "what is Electrical Engineering stream?", "i want to know about the Electrical stream at NMIMS", "i want to know about the Electrical Engineering stream in this college", "give some information about Electrical Engineering field in this college", "tell me about Electrical Engineering stream in this college", "tell me about Electrical Engineering stream in this college","tell me about Electrical Engineering stream at MPSTME"],
+"responses": ["The core electrical engineering branch has penetrated into several domains. Extensive research is being carried out in several areas like alternative and renewable energy systems, control and automation. NMIMS is initiating a 4 year B. Tech. in Electrical Engineering to generate valuable human resources to address the needs of this sector. We provide Electrical Engineering Stream in the following courses: B. Tech, B. Tech Integrated, MBA Tech, M. Tech"]
+},
+
+{"tag": "streamElectronicsandTelecommunications",
+"patterns": ["stream ElectronicsandTelecommunications", "stream EXTC", "what is ElectronicsandTelecommunication stream?", "courses in ElectronicsandTelecommunication", "what is EXTC Engineering stream?", "i want to know about the EXTC stream at NMIMS", "i want to know about the EXTCEngineering stream in this college", "give some information about EXTC Engineering field in this college", "tell me about EXTC Engineering stream in this college", "tell me about EXTC Engineering stream in this college","tell me about EXTC Engineering stream at MPSTME"],
+"responses": ["To build a strong teaching and research environment that caters to the needs of fast growing telecommunication domain.We provide EXTC Stream in the following courses: B. Tech, B. Tech Integrated, MBA Tech, M. Tech"]
+},
+
+{"tag": "streamIndustrialAutomation",
+"patterns": ["stream Industrial Automation", "stream industrial automation", "what is industrial automation stream?", "courses in industrial automation", "what is Industrial Automation Engineering stream?", "i want to know about Ind. Automa stream at NMIMS", "i want to know about the Industrial Automation Engineering stream in this college", "give some information about Industrial Automation Engineering field in this college", "tell me about Industrial Automation Engineering stream in this college", "tell me about Industrial Automation Engineering stream in this college","tell me about Industrial Automation Engineering stream at MPSTME"],
+"responses": ["The emphases have been given to the latest development in industry wherein expertise is required. The steps have been taken to further strengthen the present system in the country while framing the syllabus. We provide Industrial Automation in the following courses: M.Tech"]
+},
+
+{"tag": "streamInformationTechnology",
+"patterns": ["stream Information Technology", "stream Information Technology", "what is Information Technology stream?", "courses in IT", "what is Information Technology Engineering stream?", "i want to know about IT stream at NMIMS", "i want to know about the Information Technology Engineering stream in this college", "give some information about IT Engineering field in this college", "tell me about IT Engineering stream in this college","tell me about Information Technology Engineering stream at MPSTME"],
+"responses": ["Department of IT imparts quality education and conducts research relevant to the needs of national and international community which will help to improve the quality of human life. We provide IT Engineering in the following courses:  B.Tech, MBA Tech"] 
+},
+
+{"tag": "streamMechanical",
+"patterns": ["stream Mechanical", "stream Mechanical", "what is Mechanical stream?", "courses in Mechanical", "what is Mechanical Engineering stream?", "i want to know about Mechanical stream at NMIMS", "i want to know about the Mechanical Engineering stream in this college", "give some information about Mechanical Engineering field in this college", "tell me about Mechanical Engineering stream in this college", "tell me about Mechanical Engineering stream at MPSTME"],
+"responses": ["To be a center of excellence in Mechanical Engineering for education and research to create competent Mechanical Engineering graduates who can be employable in the industries and be part of innovation, research, problem solving and entrepreneurship to help mankind in particular and society in general. We provide Mechanical Engineering Stream in the following courses: B.Tech, B. Tech Integrated, MBA Tech "]
+ },
+
+{"tag": "streamMechatronics",
+"patterns": ["stream Mechatronics", "stream Mechatronics", "what is Mechatronics stream?", "courses in Mechatronics", "what is Mechatronics Engineering stream?", "i want to know about Mechatronics stream at NMIMS", "i want to know about the Mechatronics Engineering stream in this college", "give some information about Mechatronics Engineering field in this college", "tell me about Mechatronics Engineering stream in this college", "tell me about Mechatronics Engineering stream at MPSTME"],
+"responses": ["To play a significant role in creating Mechatronics Engineering professionals with sound technical and managerial skills of value to industry and society both at national and international level. We provide Mechatronics Engineering Stream in the following courses:B.Tech"]
+ },
+
+{"tag": "whyB.Tech",
+ "patterns": ["skill set required for B.Tech?", "prerequisites for B.Tech?", "skills required for pursuing a B.Tech degree?", "should I choose to do B.Tech for my undergrad?", "Should I pursue a B.Tech degree?", "Should I choose B.Tech?", "Why B.Tech?", "Why should I choose to do B.Tech?"],
+ "responses": ["I can assist you! If you think you have: the desire for acquiring Knowledge of the core subject, Application of the knowledge, Information Literacy, Analytical & Creative thinking and most importantly Passion for learning, then certainly B.Tech course is for you!"]
+},
+
+{"tag": "whyB.TechIntegrated",
+ "patterns": ["Why BTech Int?", "Why should I choose to do BTech Integrated?", "Why B.Tech Integrated?", "Should I choose BTech Integrated?", "Should I pursue a BTech Integrated degree?", "should I choose to do B.Tech Integrated for my undergrad?", "skills required for pursuing a BTech Integrated degree?", "prerequisites for BTech Integrated?", "Why should I do a BTech Integrated dual degree?", "skill set required for BTech Integrated?", "why should i go for MTech course?", "reason for doing BTech Integrated", "benefits of doing BTech Integrated", "advantages of taking BTech Integrated", "career of an BTech Integrated engineer", "qualities of an BTech Integrated engineer", "skill set required for BTech Integrated", "Should I pursue a BTech Integrated degree", "skills required for pursuing a BTech Integrated", "Why BTech Integrated", "industry acceptance of BTech Integrated graduate"],
+"responses": ["I can assist you! B.Tech Integrated is a unique six-year B.Tech. Program for 10+ students.If you think you have: the desire for acquiring Knowledge of the core subjects, Application of the knowledge, Information Literacy, Analytical & Creative thinking, A desire for experiential learning through industrial exposure and most importantly have a Passion for learning, then certainly this course is for you!"]
+},
+
+{"tag": "whyM.Tech",
+ "patterns": ["Why should I choose to do MTech?", "Why MTech?", "Should I choose M.Tech?", "Should I pursue an MTech degree for postgraduate?", "should I choose to do MTech for my postgrad?", "MTech for post graduate degree?", "skills required for pursuing a MTech degree?", "prerequisites for MTech?", "skill set required for MTech?", "why should i go for MTech course?", "reason for doing MTech", "benefits of doing MTech", "advantages of taking MTech", "career of an MTech engineer", "qualities of an MTech engineer", "skill set required for MTech", "Should I pursue a MTech degree", "skills required for pursuing a MTech degree", "Why MTech", "industry acceptance of MTech graduate"],
+ "responses": ["I can assist you! If you think you have: the desire for acquiring further Knowledge of the core subject/branch that you're interested in, Application of the knowledge, Information Literacy, Analytical & Creative thinking, inclination towards research in your domain and most importantly Passion for learning, then certainly M. Tech course is for you!"]
+},
+
+{"tag": "whyMCA",
+ "patterns": ["Why should I choose to do MCA?", "Why MCA?", "Should I choose MCA?", "Should I pursue a MCA degree?", "should I choose to do MCA for my postgrad?", "why should I do MCA for post graduation degree?", "skills required for pursuing a MCA degree?", "prerequisites for MCA?", "skill set required for MCA?", "why should i go for MCA course?", "reason for doing MCA", "benefits of doing MCA", "advantages of taking MCA", "career of an MCA engineer", "qualities of an MCA engineer", "skill set required for MCA", "Should I pursue a MCA degree", "skills required for pursuing a MCA degree", "Why MCA", "industry acceptance of MCA graduate"],
+ "responses": ["I can assist you! If you think you have: the desire for acquiring Knowledge of the core subject, Application of the knowledge, Information Literacy, Analytical & Creative thinking, interest in developing computer application software and most importantly Passion for learning, then certainly MCA course is for you!"]
+},
+
+{"tag": "whyMBATech",
+ "patterns": ["Why should I do a dual degree MBAtech?", "Why should I choose to do MBAtech?", "Why MBAtech?", "Should I choose MBATech?", "Should I pursue a MBATech degree?", "should I choose to do MBATech for my undergrad?", "MBATech for an undergraduate degree?", "skills required for pursuing a MBATech degree?", "prerequisites for MBATech?", "why should i go for MBATech course?", "reason for doing MBATech", "benefits of doing MBATech", "advantages of taking MBATech", "career of an MBATech engineer", "qualities of an MBATech engineer", "skill set required for MBATech", "Should I pursue a MBATech degree", "skills required for pursuing a MBATech degree", "Why MBATech", "industry acceptance of MBATech graduate"],
+"responses": ["I can assist you! If you think you have a desire for learning and taking technology to another level by combining it with the managerial knowledge and most importantly have a Passion for learning then certainly this course is for you! At MPSTME we strive:To provide a strong conceptual base in all the facets of Management, To bridge the knowledge gap in management education by focused inputs on technology management,To equip the students with an analytical frame of mind."]
+},
+{"tag": "whyPhD",
+ "patterns": ["why should I do Doctor of Philosophy?", "Why should I choose to do  PHD?", "Why PHD?", "Should I choose PHD?", "Should I pursue a PHD degree?", "should I choose to do PHD ?", "skills required for pursuing a PHD degree?", "prerequisites for PHD?", "why should i go for PHD course?", "reason for doing PHD", "benefits of doing PHD", "advantages of taking PHD", "career of an PHD engineer", "qualities of an PHD engineer", "skill set required for PHD", "Should I pursue a PHD degree", "skills required for pursuing a PHD degree", "Why PHD", "industry acceptance of PHD graduate"],
+  "responses": ["I can assist you! If you think you have, the desire for acquiring Knowledge, Application of the knowledge, Information Literacy, Analytical & Creative thinking, inclination towards research, communication skills and most importantly Passion for learning, then certainly Ph.D course is for you!"]
+},
+
+{"tag": "whyPGDM",
+ "patterns": ["Why should I choose to do PGDM?", "Why PGDM?", "Should I choose PGDM?", "Should I pursue a PGDM degree?", "should I choose to do PGDM?", "skills required for pursuing a PGDM degree?", "prerequisites for PGDM?", "why should i go for PGDM course?", "reason for doing CS", "benefits of doing CS", "advantages of taking PGDM", "career of an PGDM engineer", "qualities of an PGDM engineer", "skill set required for PGDM", "Should I pursue a PGDM degree", "skills required for pursuing a PGDM degree", "Why PGDM", "industry acceptance of PGDM graduate"],
+ "responses": ["I can assist you! PGDM - Post Graduate Diploma in Management. If you think you have:  Information Literacy, Analytical & Creative thinking, interest in developing business communication skills, interest in managerial aspects, and most importantly Passion for learning,then certainly this course is for you!"]
+},
+
+{"tag": "whyCS",
+ "patterns": ["prerequisites for computer engineering", "skills required for engineering in computers", "i am confused if i should do engineering in CS engineering", "i am confused if i should do engineering in Computer science engineering", "should i choose b. tech in computer science engineering", "should i choose btech in computer engineering", "tell me if I should do engineering in computer engineering", "why should I opt for engineering in CS?", "why computer science course", "Why computer engineering", "why should i go for CS course?", "reason for doing CS", "benefits of doing CS", "advantages of taking CS", "career of an CS engineer", "qualities of an CS engineer", "skill set required for CS", "Should I pursue a CS degree", "skills required for pursuing a CS degree", "Why CS", "industry acceptance of CS graduate"],
+"responses": ["I can help you! If you think you are a Problem-Solver, a Troubleshooter, a Logical Thinker and most importantly if you are Passionate for Learning, I think Computer Engineering field is for you!"]
+},
+
+{"tag": "whyIT",
+ "patterns": ["prerequisites for information technology engineering", "skills required for engineering in IT", "i am confused if i should do engineering in IT engineering", "i am confused if i should do engineering in information technology engineering", "should i choose b. tech in information technology engineering", "should i choose btech in IT engineering", "tell me if I should do engineering in information technology engineering", "why should I opt for engineering in IT?", "why information technology course", "Why IT engineering", "why should i go for IT course?", "reason for doing IT", "benefits of doing IT", "advantages of taking IT", "career of an IT engineer", "qualities of an IT engineer", "skill set required for IT", "Should I pursue a IT degree", "skills required for pursuing a IT degree", "Why IT", "industry acceptance of IT graduate"],
+"responses": ["I can help you! If you are a Troubleshooter, a Problem-Solver, a Researcher, and you have a Desire to Learn new Techniques, you are a perfect fit!"]
+},
+{"tag": "whyCivil",
+ "patterns": ["prerequisites for civil engineering", "skills required for engineering in civil", "i am confused if i should do engineering in civil engineering", "i am confused if i should do engineering in civil engineering", "should i choose b. tech in civil engineering", "should i choose btech in civil engineering", "tell me if I should do engineering in civil engineering", "why should I opt for engineering in civil?", "why civil course", "Why civil engineering", "why should i go for civil course?", "reason for doing civil", "benefits of doing civil", "advantages of taking civil", "career of an civil engineer", "qualities of an civil engineer", "skill set required for civil", "Should I pursue a civil degree", "skills required for pursuing a civil degree", "Why electrical", "industry acceptance of civil graduate"],
+"responses": ["I can help you! If you think you are an Enthusiastic human, a Visualizer, a Creative Thinker and you have an Eye for Details along with Passion for Learning, I think you will excel in Civil field!"]
+},
+
+{"tag": "whyElectrical",
+ "patterns": ["prerequisites for electrical engineering", "skills required for engineering in electrical", "i am confused if i should do engineering in electrical engineering", "i am confused if i should do engineering in electrical engineering", "should i choose b. tech in electrical engineering", "should i choose btech in electrical engineering", "tell me if I should do engineering in electrical engineering", "why should I opt for engineering in electrical?", "why electrical course", "Why electrical engineering", "why should i go for electrical course?", "reason for doing electrical", "benefits of doing electrical", "advantages of taking electrical", "career of an electrical engineer", "qualities of an electrical engineer", "skill set required for electrical", "Should I pursue a electrical degree", "skills required for pursuing a electrical degree", "Why electrical", "industry acceptance of electrical graduate"],
+"responses": ["Let me help you! If you think you are a Critical Thinker, an Active Learner and would love to be surrounded by words like Filters, Frequency, Current, Signals, Capacitance and so on, you are an appropriate candidate for Electrical Engineering!"]
+},
+
+{"tag": "whyEXTC",
+ "patterns": ["prerequisites for electronics and telecommunication engineering", "skills required for engineering in EXTC", "i am confused if i should do engineering in EXTC engineering", "i am confused if i should do engineering in electronics and telecommunication engineering", "should i choose b. tech in electronics and telecommunication engineering", "should i choose btech in EXTC engineering", "tell me if I should do engineering in electronics and telecommunication engineering", "why should I opt for engineering in EXTC?", "why electronics and telecommunication course", "Why EXTC engineering", "why should i go for EXTC course?", "reason for doing EXTC", "benefits of doing EXTC", "advantages of taking EXTC", "career of an EXTC engineer", "qualities of an EXTC engineer", "skill set required for mechanical", "Should I pursue a EXTC degree", "skills required for pursuing a EXTC degree", "Why EXTC", "industry acceptance of EXTC graduate"],
+"responses": ["I can help you! If you are Creative, an Innovator, a Problem-Solver, with interest in Learning Technical Skills, Analyze Problems and Strategic Thinking, then you are a fit!"]
+},
+
+{"tag": "whyMechanical",
+ "patterns": ["prerequisites for mechanical engineering", "skills required for engineering in mechanical", "i am confused if i should do engineering in mechanical engineering", "i am confused if i should do engineering in mechanical engineering", "should i choose b. tech in mechanical engineering", "should i choose btech in mechanical engineering", "tell me if I should do engineering in mechanical engineering", "why should I opt for engineering in mechanical?", "why mechanical course", "Why mechanical engineering", "why should i go for mechanical course?", "reason for doing mechanical", "benefits of doing mechanical", "advantages of taking mechanical", "career of an mechanical engineer", "qualities of an mechanical engineer", "skill set required for mechanical", "Should I pursue a mechanical degree", "skills required for pursuing a mechanical degree", "Why mechanical", "industry acceptance of mechanical graduate"],
+ "responses": ["I can help you! If you are a Creative Innovator,  Analytical Thinker, along with Passion about Machinery and Desire for Learning Technical Skills, then you should give Mechanical Engineering a try! "]
+},
+
+{"tag": "whyMechatronics",
+ "patterns": ["prerequisites for mechatronics engineering", "skills required for engineering in mechatronics", "i am confused if i should do engineering in mechatronic engineering", "i am confused if i should do engineering in mechatronics engineering", "should i choose b. tech in mechatronics engineering", "should i choose btech in mechatronics engineering", "tell me if I should do engineering in mechatronics engineering", "why should I opt for engineering in mechatronics?", "why mechatronics course", "Why mechatronics engineering", "why should i go for mechatronics course?", "reason for doing mechatronics", "benefits of doing mechatronics", "advantages of taking mechatronics", "career of an mechatronics engineer", "qualities of an mechatronics engineer", "skill set required for mechatronics", "Should I pursue a mechatronics degree", "skills required for pursuing a mechatronics degree", "Why mechatronics", "industry acceptance of mechatronics graduate"],
+"responses": ["Let me help you! If you hold interest in Electronic Concepts, Programming, Mathematics and Physics (you don't need to be an expert!), then Mechatronics is for you!"]
+},
+
+{"tag": "whyDataScience",
+ "patterns": ["prerequisites for data science engineering", "skills required for engineering in data science", "i am confused if i should do engineering in DS engineering", "i am confused if i should do engineering in data science engineering", "should i choose b. tech in data science engineering", "should i choose btech in data science engineering", "tell me if I should do engineering in data science engineering", "why should I opt for engineering in data science?", "why data science course", "Why data science engineering", "why should i go for data science course?", "reason for doing data science", "benefits of doing data science", "advantages of taking data science", "career of an data science engineer", "qualities of an data science engineer", "skill set required for data science", "Should I pursue a data science degree", "skills required for pursuing a data science degree", "Why data science", "industry acceptance of data science graduate"],
+ "responses": ["I can help you: If you posses Programming Skills, Critical Thinking Skill, Analytical and Creative mind, and interest in Mathematics, then you must get a degree in Data Science! Knowledge of SQL, Python and R programming will be a plus!"]
+},
+
+{"tag": "whyArtificialIntelligence",
+ "patterns": ["prerequisites for artificial intelligence engineering", "skills required for engineering in AI", "i am confused if i should do engineering in artificial intelligence engineering", "i am confused if i should do engineering in artificial intelligence engineering", "should i choose b. tech in AI engineering", "should i choose btech in artificial intelligence engineering", "tell me if I should do engineering in artificial intelligence engineering", "why should I opt for engineering in AI?", "why artificial intelligence course", "Why artificial intelligence engineering", "why should i go for Artificial Intelligence course?", "reason for doing Artificial Intelligence", "benefits of doing Artificial Intelligence degree", "advantages of taking Artificial Intelligence", "career of an Artificial Intelligence engineer", "qualities of an Artificial Intelligence engineer", "skill set required for Industrial Automation", "Should I pursue a Industrial Automation degree", "skills required for pursuing a Industrial Automation degree", "Why Industrial Automation", "industry acceptance of Industrial Automation graduate"],
+"responses": ["Let me help! If you are an individual with interest in Statistics, Probability, Machine Learning, Analytical Thinking then you should consider getting a degree/ certificate in Artificial Intelligence! Intermediate knowledge of Python, R programming, Mathematics is a plus!"]
+}, 
+
+{"tag": "whyIndustrialAutomation",
+ "patterns": ["prerequisites for industrial automation engineering", "skills required for engineering in industrial automation", "i am confused if i should do engineering in industrial automation engineering", "i am confused if i should do engineering in industrial automation engineering", "should i choose b. tech in industrial automation engineering", "should i choose btech in industrial automation engineering", "tell me if I should do engineering in industrial automation engineering", "why should I opt for engineering in industrial automation?", "why industrial automation course", "Why industrial automation engineering", "why should i go for industrial automation course?", "reason for doing industrial automation", "benefits of doing industrial automation", "advantages of taking industrial automation", "career of an industrial automation engineer", "qualities of an industrial automation engineer", "skill set required for Industrial Automation", "Should I pursue a Industrial Automation degree", "skills required for pursuing a Industrial Automation degree", "Why Industrial Automation", "industry acceptance of Industrial Automation graduate"],
+"responses": ["I can help you.If you understand Programming and Software Development, PLC, HMI, SCADA Programming, Electronic Basics and you have a Detail-Oriented Personality, then this Industrial Automation course is for you!"]
+}
+  	 
+   	 
+   ]
+}
