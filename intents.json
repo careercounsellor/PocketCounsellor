@@ -9,7 +9,7 @@
      	"responses": ["Goodbye, I hope I answered your queries.", "Have a nice day!", "Bye! Come back again soon."]
     	},
     	{"tag": "thanks",
-     	"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thanks a ton", "Ty", "Tysm", "Thank you so much"],
+     	"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thanks a ton", "Ty", "Tysm", "Thank you so much", "thanks bro", "thanks dude"],
      	"responses": ["Your welcome!", "Any time!", "My pleasure"]
     	},
     	{"tag": "noanswer",
@@ -236,8 +236,51 @@
 {"tag": "whyIndustrialAutomation",
  "patterns": ["prerequisites for industrial automation engineering", "skills required for engineering in industrial automation", "i am confused if i should do engineering in industrial automation engineering", "i am confused if i should do engineering in industrial automation engineering", "should i choose b. tech in industrial automation engineering", "should i choose btech in industrial automation engineering", "tell me if I should do engineering in industrial automation engineering", "why should I opt for engineering in industrial automation?", "why industrial automation course", "Why industrial automation engineering", "why should i go for industrial automation course?", "reason for doing industrial automation", "benefits of doing industrial automation", "advantages of taking industrial automation", "career of an industrial automation engineer", "qualities of an industrial automation engineer", "skill set required for Industrial Automation", "Should I pursue a Industrial Automation degree", "skills required for pursuing a Industrial Automation degree", "Why Industrial Automation", "industry acceptance of Industrial Automation graduate"],
 "responses": ["I can help you.If you understand Programming and Software Development, PLC, HMI, SCADA Programming, Electronic Basics and you have a Detail-Oriented Personality, then this Industrial Automation course is for you!"]
-}
-  	 
+},
+{"tag": "contactDetails",
+ "patterns": ["How do I call you?", "How to reach the college?", "How can I call college?", "How do I call the college?", "I want the phone number.", "I want the email address", "I would like to have the contact details of the college.", "I want the contact details of the college.", "Location", "contact you", "contact details", "call information", "contact information", "contact", "call", "communication", "reach college", "i want to talk to the admin", "talk", "phone number", "phone no.", "contact no.", "phone no", "contact no", "contact number"],
+"responses": ["You can reach us at: Bhakti Vedant Swami Marg, Near Cooper Hospital, JVPD Scheme, Vile Parle (West), Mumbai. Maharashtra- 400 056, India. Tel. No: (+91 22 4233 4000) Email: (enquiry.mpstme@nmims.edu) / (admissions.MPSTME@nmims.edu)"]
+},
+{"tag": "location",
+ "patterns": ["MPSTME location", "location", "mukesh patel college location", "mukesh patel location", "location of mpstme", "location of mukesh patel", "mukesh patel school of technology management and engineering location", "location of mukesh patel school of technology management and engineering", "i want location", "where is mpstme located", "where is your college located", "i want to know about where your college is situated", "point of location", "place of location of mpstme", "locality of mpstme", "locality of college", "address of mpstme", "address of college", "address details", "address", "where are you located"],
+"responses": ["https://goo.gl/maps/QBZ2Bo7hsu42"]
+},
+{"tag": "committees",
+ "patterns": ["tell me about college committees", "committees", "extra curriculars", "extra curricular activities", "activities", "cultural activities", "cultural committees", "technical committees", "college activities", "college committees", ""],
+"responses": [""]
+},
+{"tag": "ambiguousQueries",
+ "patterns": ["Mumbai", "Shirpur", "b.tech", "btech", "faculty", "mbatech", "mba.tech", "college", "phd", "PHD", "MBA TECH", "btechint", "btech integrated"],
+"responses": ["Kindly be more specific with the query, so that I can help you better!"]
+},
+{"tag": "hostelInfo",
+ "patterns": ["hostel arrangement?", "accommodation?", "stay arrangement?", "are there hostels?", "hostel information", "hostel info"],
+"responses": ["https://github.com/pshukla97/pshukla97.github.io/blob/master/Hostel%20Info.png?raw=true"]
+},
+{"tag": "itVsCS",
+ "patterns": ["CE vs IT", "CS vs IT", "contrast computer engineering and information technology", "compare computer science and information technology", "compare IT and CE", "compare IT and CS", "difference between computer engineering and information technology", "what is the difference between cs and it", "difference between cs and it", "what is the difference between computer science and information technology", "difference between computer science and information technology"],
+"responses": ["Let's just say IT professionals should enjoy installing computer systems, using software and maintaining networks and databases, while computer scientists should enjoy mathematics and software design. Ask for Stream Details for Computer and Information Technology Engineering."]
+},
+{"tag": "compliments",
+ "patterns": ["You are good", "You are helpful", "You are amazing", "this is awesome", "this is amazing", "what an amazing bot", "You are very useful", "You are very helpful", "this is good", "you are sharp", "you are nice", "you are amazing", "i love you", "you are the best", "thats great", "that's great", "amazing", "Why are you so amazing"],
+"responses": ["Thank you. We work hard to achieve this.", "I appreciate your feedback!", "Thank you for the feedback!"]
+},
+{"tag": "collegeAdmin",
+ "patterns": ["admin information", "admin info", "i want administration information", "give me administration details", "admin details", "staff of college", "administration", "college admin"],
+"responses": ["https://drive.google.com/open?id=1cwxfIOADHYD-Gf7YmYrJnvgcO_eQUZzb"]
+},
+{"tag": "hostelInfo",
+ "patterns": ["hostel arrangement?", "accommodation?", "stay arrangement?", "are there hostels?", "hostel information", "hostel info"],
+"responses": ["https://github.com/pshukla97/pshukla97.github.io/blob/master/Hostel%20Info.png?raw=true"]
+}, 
+{"tag": "dean",
+ "patterns": ["principal", "Head of college", "Principal of college?", "Dean of college?", "dean"],
+"responses": ["Dr. N. T. Rao"]
+}, 
+{"tag": "campus",
+ "patterns": ["interior MPSTME", "campus", "campus of mpstme", "classrooms", "canteen", "library", "campus pictures", "amenities", "features", "images", "photos", "inside college", "mpstme campus", "mukesh patel pictures", "environment", "labs", "laboratory", "cafeteria", "food court", "food facilities"],
+"responses": ["We provide amenities such as library with online as well as offline resources, fully air-conditioned world class labs & innovation centres, mechanical workshops and separate lounge facilities for girls and boys. Our classrooms are well equipped with modern technologies that enable an effective learning environment for the students.We also have a full-fleged canteen with various delicious and healthy food items, available at subsidized prices.Our professors are highly skilled and possess good industry knowledge. https://github.com/Nam-rata/Nam-rata.github.io/blob/master/Campus_MPSTME.jpg?raw=true"]
+} 
    	 
    ]
 }
