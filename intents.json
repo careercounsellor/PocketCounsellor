@@ -253,10 +253,6 @@
  "patterns": ["Mumbai", "Shirpur", "b.tech", "btech", "faculty", "mbatech", "mba.tech", "college", "phd", "PHD", "MBA TECH", "btechint", "btech integrated"],
 "responses": ["Kindly be more specific with the query, so that I can help you better!"]
 },
-{"tag": "hostelInfo",
- "patterns": ["hostel arrangement?", "accommodation?", "stay arrangement?", "are there hostels?", "hostel information", "hostel info"],
-"responses": ["https://github.com/pshukla97/pshukla97.github.io/blob/master/Hostel%20Info.png?raw=true"]
-},
 {"tag": "itVsCS",
  "patterns": ["CE vs IT", "CS vs IT", "contrast computer engineering and information technology", "compare computer science and information technology", "compare IT and CE", "compare IT and CS", "difference between computer engineering and information technology", "what is the difference between cs and it", "difference between cs and it", "what is the difference between computer science and information technology", "difference between computer science and information technology"],
 "responses": ["Let's just say IT professionals should enjoy installing computer systems, using software and maintaining networks and databases, while computer scientists should enjoy mathematics and software design. Ask for Stream Details for Computer and Information Technology Engineering."]
@@ -267,18 +263,18 @@
 },
 {"tag": "collegeAdmin",
  "patterns": ["admin information", "admin info", "i want administration information", "give me administration details", "admin details", "staff of college", "administration", "college admin"],
-"responses": ["https://drive.google.com/open?id=1cwxfIOADHYD-Gf7YmYrJnvgcO_eQUZzb"]
+"responses": ["https://bit.ly/2H19KYS"]
 },
 {"tag": "hostelInfo",
  "patterns": ["hostel arrangement?", "accommodation?", "stay arrangement?", "are there hostels?", "hostel information", "hostel info"],
-"responses": ["https://github.com/pshukla97/pshukla97.github.io/blob/master/Hostel%20Info.png?raw=true"]
+"responses": ["You can find the required details of the hostel facilities offered by our college here: https://bit.ly/2ENtzjY"]
 }, 
 {"tag": "dean",
  "patterns": ["principal", "Head of college", "Principal of college?", "Dean of college?", "dean"],
 "responses": ["Dr. N. T. Rao"]
 }, 
 {"tag": "campus",
- "patterns": ["interior MPSTME", "campus", "campus of mpstme", "classrooms", "canteen", "library", "campus pictures", "amenities", "features", "images", "photos", "inside college", "mpstme campus", "mukesh patel pictures", "environment", "labs", "laboratory", "cafeteria", "food court", "food facilities"],
+ "patterns": ["interior MPSTME", "campus", "campus of mpstme", "classrooms", "canteen", "library", "campus pictures", "amenities", "features", "images", "photos", "inside college", "mpstme campus", "mukesh patel pictures", "environment", "labs", "laboratory", "cafeteria", "food court", "food facilities", "tell me about college", "about mpstme", "about college", "college details", "campus details"],
 "responses": ["We provide amenities such as library with online as well as offline resources, fully air-conditioned world class labs & innovation centres, mechanical workshops and separate lounge facilities for girls and boys. Our classrooms are well equipped with modern technologies that enable an effective learning environment for the students.We also have a full-fleged canteen with various delicious and healthy food items, available at subsidized prices.Our professors are highly skilled and possess good industry knowledge. https://github.com/Nam-rata/Nam-rata.github.io/blob/master/Campus_MPSTME.jpg?raw=true"]
 } 
    	 
