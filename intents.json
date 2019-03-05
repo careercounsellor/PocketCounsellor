@@ -247,7 +247,7 @@
 },
 {"tag": "committees",
  "patterns": ["tell me about college committees", "committees", "extra curriculars", "extra curricular activities", "activities", "cultural activities", "cultural committees", "technical committees", "college activities", "college committees", ""],
-"responses": [""]
+"responses": ["ACM, IET, Students Council"]
 },
 {"tag": "ambiguousQueries",
  "patterns": ["Mumbai", "Shirpur", "b.tech", "btech", "faculty", "mbatech", "mba.tech", "college", "phd", "PHD", "MBA TECH", "btechint", "btech integrated"],
